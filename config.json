@@ -1,0 +1,44 @@
+{
+    "test_input_wavs_dir":"../../mnt_102/datasets/Data_16k_v2/test",
+    "test_input_latent_dir":"/home/aiyang/Data_LJSpeech/mels/test",
+    "test_latent_output_dir":"output_latent",
+    "test_wav_output_dir":"output_wav",
+    "seed": 1234,
+    "n_codebooks":8,
+    "checkpoint_path": "cp_Encoder_Decoder",
+    "checkpoint_file_load_Encoder": "cp_Encoder_Decoder/encoder_16k_4kbps",
+    "checkpoint_file_load_Decoder": "cp_Encoder_Decoder/decoder_16k_4kbps",
+
+    "AMP_Encoder_channel": 256,
+    "AMP_Encoder_input_conv_kernel_size": 7,
+    "AMP_Encoder_output_downconv_kernel_size": 7,
+
+    "PHA_Encoder_channel": 256,
+    "PHA_Encoder_input_conv_kernel_size": 7,
+    "PHA_Encoder_output_downconv_kernel_size": 7,
+
+    "AMP_Decoder_channel": 256,
+    "AMP_Decoder_input_upconv_kernel_size": 16,
+    "AMP_Decoder_output_conv_kernel_size": 7,
+
+    "PHA_Decoder_channel": 256,
+    "PHA_Decoder_input_upconv_kernel_size": 16,
+    "PHA_Decoder_output_R_conv_kernel_size": 7,
+    "PHA_Decoder_output_I_conv_kernel_size": 7,
+
+    "latent_output_conv_kernel_size": 7,
+    "latent_input_conv_kernel_size": 7,
+
+    "ratio": 8,
+    "latent_dim": 64,
+
+    "num_mels": 80,
+    "n_fft": 1024,
+    "hop_size": 40,
+    "win_size": 160,
+    "num_mels_for_loss": 80,
+
+    "sampling_rate": 16000,
+
+    "num_workers": 4
+}
