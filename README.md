@@ -2,7 +2,7 @@
 The model is trained on public speech datasets (maybe not works well on audio).
 
 ## Requirements
-Follow this [txt](https://github.com/redmist328/APCodec16_speech_infer/tree/main/requirements).
+Follow this [txt](https://github.com/redmist328/APCodec16_speech_infer/tree/main/requirements.txt).
 
 ## Inference
 You can download pretrained model at [here](http://home.ustc.edu.cn/~redmist/codec/). And put the files in [cp_Encoder_Decoder](https://github.com/redmist328/APCodec16_speech_infer/tree/main/cp_Encoder_Decoder).
