@@ -9,7 +9,8 @@ You can download pretrained model at [here](http://home.ustc.edu.cn/~redmist/cod
 
 There are 2 kinds of bitrate which can be seleceted: 2 kbps and 4kbps.
 
-You need to change the "n_codebooks" in config.json to change the bitrate, 4 for 2kbps and 8 for 4 kbps. Then change the "checkpoint_file_load_xx" with the same bitrate file.
+You need to change the "n_codebooks" in config.json to change the bitrate, n_codebooks=4 for 2kbps and n_codebooks=8 for 4 kbps. Then change the parameter "checkpoint_file_load_xx" with the same bitrate file.
+Change "test_input_wavs_dir" in config.json as the input wav dir.
 ```
 python inference.py
 ```
