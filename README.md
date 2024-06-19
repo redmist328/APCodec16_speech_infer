@@ -5,7 +5,7 @@ The model is trained on public speech datasets (maybe not works well on audio).
 Follow this [txt](https://github.com/redmist328/APNet2/blob/main/requirements.txt).
 
 ## Inference
-You can download pretrained model at [here](http://home.ustc.edu.cn/~redmist/codec/). And put the files in [cp_Encoder_Decoder](./cp_Encoder_Decoder)
+You can download pretrained model at [here](https://github.com/redmist328/APCodec16_speech_infer/tree/main/requirements). And put the files in [cp_Encoder_Decoder](https://github.com/redmist328/APCodec16_speech_infer/tree/main/cp_Encoder_Decoder).
 
 There are 2 kinds of bitrate can be seleceted: 2 kbps and 4kbps.
 
