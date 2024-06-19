@@ -9,4 +9,3 @@ You can download pretrained model at [here](http://home.ustc.edu.cn/~redmist/APC
 ```
 python inference.py
 ```
-s
