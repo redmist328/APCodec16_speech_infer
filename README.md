@@ -1,5 +1,5 @@
 ## Description
-The model is trained on public speech datasets (maybe not works well on audio).
+The model is trained on public speech datasets at 16 kHz(maybe not works well on audio).
 
 ## Requirements
 Follow this [txt](https://github.com/redmist328/APCodec16_speech_infer/tree/main/requirements.txt).
